@@ -1,0 +1,191 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-family: "Poppins";
+}
+
+p,a {
+    font-family: "Poppins";
+}
+
+
+
+.logo img {
+    height: 50px;
+    width: auto;  
+    max-width: 100%;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0e438f;
+    color: #fff;
+    padding-top: 5px;
+    z-index: 1000;
+}
+
+
+section {
+    padding-top: 60px;
+    min-height: 70vh;
+}
+
+
+#home {
+    background-color: #6ea9ff;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+#home a{
+    
+}
+
+.cta-button {
+    background-color: #235DB2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: "Poppins";
+    
+}
+
+.cta-button:hover {
+    background-color: #f8106a;
+}
+
+#features {
+    background-color: #fff;
+    color: #235DB2;
+    text-align: center;
+}
+
+.feature {
+    margin: 20px 0;
+}
+#features h1{
+    font-size: 3em;
+}
+
+
+#download{
+    background-color:#6ea9ff ;
+    text-align: center;
+}
+
+.download-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: -20px;
+}
+
+.download-button:hover {
+    background-color: #f8106a;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+#ban {
+    width: 100%;
+    height: 30vw;
+    background-image: url(Imagens/banner.png);
+    margin-top: 30px;
+    margin-bottom: 70px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#ban p {
+        margin-top: 50px;
+        font-size: 3.2vw;
+        font-weight: bolder;
+        font-family: "Poppins";
+        text-align: center;
+        white-space: pre-line; 
+        padding-right: 30px;
+ }
+
+#ban2 {
+    width: 100%;
+    height: 30vw;
+    background-image: url(Imagens/bannerF.png);
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#ban2 p {
+    margin-top: 50px;
+    font-size: 3.2vw;
+    font-weight: bolder;
+    font-family: "Poppins";
+    text-align: center;
+    white-space: pre-line; 
+    padding-right: 40px;
+    padding-bottom: 120px;
+}
+#ban3{
+    width: 100%;
+    height: 40vw;
+    background-image: url(Imagens/bannerD.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#download h1{
+    font-size: 3em;
+    font-family: "Poppins";
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+
+

@@ -1,0 +1,33 @@
+.containerD {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerD h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.download-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
