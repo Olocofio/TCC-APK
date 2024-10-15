@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../img/fundo.jpeg');
+    /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    max-width: 300px;
+    /* Limita a largura do container */
+    width: 100%;
+}
+
+.logo img {
+    margin: 0 auto 40px;
+    /* Centraliza e define o espaçamento inferior */
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    /* Espaçamento entre os botões */
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    /* Faz o botão ocupar toda a largura do container */
+    padding: 15px;
+    background-color: #003399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #001f66;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.rem;
+}

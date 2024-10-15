@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fundo.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 150px; 
+    margin-bottom: 20px;
+}
+
+.pergunta {
+    background-color: #1e88e5; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #f8106a;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-group button {
+    background-color: #235db2; 
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 150px;
+}
+
+.btn-group button:hover {
+    background-color: #0d47a1; 
+}
+
+.settings-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.settings-icon img {
+    width: 40px;
+}
+
+

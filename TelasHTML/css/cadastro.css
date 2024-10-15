@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fundo.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f8106a;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    border-color: #42a5f5;
+    outline: none;
+}
+
+.btn {
+    background-color: #235db2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1565c0;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 30px;
+    margin: 15px;
+}
+
+.logo img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-account a {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.create-account a:hover {
+    color: #ccc;
+}

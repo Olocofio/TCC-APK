@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/cadastro.css"> <!-- Arquivo de CSS -->
+</head>
+
+<body>
+    <div class="icons">
+        <a href="home.html"> <img src="img/back.png" class="icon" alt="Voltar"> </a>
+    </div>
+
+    <div class="logo">
+        <img src="img/logo-sf.png" alt="Logo FunLearn">
+    </div>
+
+    <!-- O action agora aponta para login.php -->
+    <form action="login.php" method="post"> <!-- Verifique se 'login.php' está no mesmo diretório -->
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="senha" placeholder="Senha" required>
+        <button type="submit" class="btn" style="margin-top:.5rem">Login</button>
+    </form>
+
+    <div class="create-account">
+        <a href="cadastro.html">Criar Conta</a>
+    </div>
+</body>
+
+</html>
